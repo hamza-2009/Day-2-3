@@ -1,0 +1,92 @@
+/* common styles */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, black, silver, rgb(185, 255, 255) );
+    font-family: sans-serif;
+  }
+  
+  /* common styles end */
+  
+  /* calculator */
+  .calculator {
+    width: 325px;
+    border: solid black 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background-color: rgb(248, 247, 247);
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+  }
+  /* calculator style end */
+  
+  /* display */
+  .display {
+    width: 100%;
+    height: 60px;
+    border: solid black 1px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:white;
+    color: #000;
+    text-align: right;
+    /* border-top-left-radius: 9px;
+    border-top-right-radius: 9px; */
+  }
+  
+  /* display style end */
+  
+  /* row */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* row style end */
+  
+  /* button */
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    border: solid white, black 3px;
+    outline: none;
+    background-color:silver;
+    color: #222;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #444;
+    border:solid white 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* button style end */
+  
+  /* operator */
+  .operator {
+    background-color:plum ;
+    color: #000;
+    border:solid 3px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .operator:hover{
+      border:solid white 3px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* operator style end */
